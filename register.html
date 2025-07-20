@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+    }
+    h2 {
+      color: #d63384;
+    }
+    form {
+      background-color: #ffe6f0;
+      display: inline-block;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 50px;
+    }
+    input[type="text"], input[type="password"], input[type="tel"], input[type="date"] {
+      width: 90%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+    button {
+      background-color: #d63384;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #c2185b;
+    }
+  </style>
+</head>
+<body>
+  <h2>Register Page</h2>
+  <form action="login.html">
+    <input type="text" placeholder="Username" required><br>
+    <input type="password" placeholder="Password" required><br>
+    <input type="tel" placeholder="Phone Number" pattern="[0-9]{10}" required><br>
+    <input type="date" placeholder="Date of Birth" required><br>
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
